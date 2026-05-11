@@ -1,2 +1,3 @@
-BOT_TOKEN = "BURAYA_BOT_TOKEN"  # @BotFather'dan alacaksın
-CHAT_ID   = "BURAYA_CHAT_ID"    # @userinfobot'tan alacaksın
+import os
+BOT_TOKEN = os.environ["BOT_TOKEN"]
+CHAT_ID   = os.environ["CHAT_ID"]
